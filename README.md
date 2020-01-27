@@ -24,6 +24,8 @@ The app can be run on localhost:3000
 The form with post method takes input from user. The post route aquires the data usning the body-parser and saves the data
 to the MOngoDB database locally using item.save() method.The route is redirected to home route after saving data.
 
-findByIdAndDelete() method is used to delete the checkmarked data from the MongoDB database. The route then redirects to home route
+findByIdAndDelete() [https://mongoosejs.com/docs/api.html#model_Model.findByIdAndDelete] method is used to delete the checkmarked data from the MongoDB database. The route then redirects to home route
 
-InsertMany() method is used to insert the list of String of blogs on to the MongoDB database.
+InsertMany() [https://docs.mongodb.com/manual/reference/method/db.collection.insertMany/] method is used to insert the list of String of blogs on to the MongoDB database.
+
+find() [https://docs.mongodb.com/manual/reference/method/db.collection.find/] method is used to get list of availale task on the MongoDB database.
